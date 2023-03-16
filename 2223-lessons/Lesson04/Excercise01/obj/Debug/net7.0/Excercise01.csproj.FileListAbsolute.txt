@@ -1,0 +1,15 @@
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\bin\Debug\net7.0\Excercise01.exe
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\bin\Debug\net7.0\Excercise01.deps.json
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\bin\Debug\net7.0\Excercise01.runtimeconfig.json
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\bin\Debug\net7.0\Excercise01.dll
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\bin\Debug\net7.0\Excercise01.pdb
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.csproj.AssemblyReference.cache
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.AssemblyInfoInputs.cache
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.AssemblyInfo.cs
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.csproj.CoreCompileInputs.cache
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.dll
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\refint\Excercise01.dll
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.pdb
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\Excercise01.genruntimeconfig.cache
+C:\Users\krisra\Code\2223-lessons\Lesson04\Excercise01\obj\Debug\net7.0\ref\Excercise01.dll
