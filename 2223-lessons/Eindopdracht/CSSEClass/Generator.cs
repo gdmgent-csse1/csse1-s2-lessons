@@ -28,7 +28,7 @@ public class Generator
     public static int[] RandomNumbers(int amountOfNumbers)
     {
         // array van ints...
-        //int[]
+        int[] test = new int[3];
         Random rnd = new Random();
         for (int i = 0; i < amountOfNumbers; i++)
         {
@@ -36,7 +36,7 @@ public class Generator
             Console.WriteLine("Random getal is: " + rnd.Next());
         }
         // return van de array van ints...
-        //return 
+        return test;
     }
 
     public static void RandomNumbers(int amountOfNumbers, int minValue, int maxValue)
