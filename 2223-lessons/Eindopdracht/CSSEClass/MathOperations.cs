@@ -2,7 +2,7 @@
 using System.Text;
 
 namespace CSSEClass;
-public class MathOperations
+public class MathOperations : ILogging
 {
     public static void Test()
     {
@@ -34,6 +34,7 @@ public class MathOperations
     Trapezium ==> Perimeter Trapezium
     Cirkel ==> Perimeter Circle
     Volumeberekening:
+    
     Kubus ==> Volume Cube (referentie: https://www.cuemath.com/measurement/volume-of-cube/Links to an external site.)
     Cilinder ==> Volume Cylinder (referentie: https://www.omnicalculator.com/math/cylinder-volume#:~:text=Find%20the%20volume%20of%20the,2(h%2Br)Links to an external site..) 
     */
@@ -66,7 +67,7 @@ public class MathOperations
         {
             // Wegschrijven naar een txt (tekstbestand van het type txt).
             // Set a variable to the Documents path.
-            string docPath = Directory.GetCurrentDirectory();
+            string docPath = Directory.GetCurrentDirectory();// + "\\Contacts";
 
             // Write the string array to a new file named "outputMultiplicationTable.txt".
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "outputMultiplicationTable.txt")))
@@ -91,8 +92,8 @@ public class MathOperations
         return p1 - p2;
     }
 
-    
-
-
-
+    public void LogOutput(string message)
+    {
+        throw new NotImplementedException();
+    }
 }

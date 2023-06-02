@@ -1,6 +1,6 @@
 namespace CSSEClass;
 
-public class Generator
+public class Generator : ILogging
 {
     public static int RandomNumber()
     {
@@ -61,6 +61,11 @@ public class Generator
     public static char RandomChar(int minValue, int maxValue)
     {
         return (char)RandomNumber(minValue, maxValue);
+    }
+
+    public void LogOutput(string message)
+    {
+        throw new NotImplementedException();
     }
 
 }
