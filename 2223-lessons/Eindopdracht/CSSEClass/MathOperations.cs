@@ -2,11 +2,12 @@
 using System.Text;
 
 namespace CSSEClass;
-public class MathOperations : ILogging
+public class MathOperations
 {
+    const double PI = 3.1459;
     public static void Test()
     {
-        Console.WriteLine("Test!");
+        LogOutput("Test!");
     }
 
     /*
@@ -67,18 +68,18 @@ public class MathOperations : ILogging
         {
             // Wegschrijven naar een txt (tekstbestand van het type txt).
             // Set a variable to the Documents path.
-            string docPath = Directory.GetCurrentDirectory();// + "\\Contacts";
+            string txtPath = Directory.GetCurrentDirectory();
 
             // Write the string array to a new file named "outputMultiplicationTable.txt".
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "outputMultiplicationTable.txt")))
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(txtPath, "outputMultiplicationTable.txt")))
             {
                 outputFile.Write(sb.ToString());
-                Console.WriteLine("Output to TXT completed!");
+                LogOutput("Output to TXT completed!");
             }
         }
         else
         {
-            Console.WriteLine(sb.ToString());
+            LogOutput(sb.ToString());
         }
     }
 
@@ -92,8 +93,44 @@ public class MathOperations : ILogging
         return p1 - p2;
     }
 
-    public void LogOutput(string message)
+    // Het nodige nog voorzien voor Division
+    // Het nodige nog voorzien voor Multiplication
+    // Het nodige nog voorzien voor Modulo
+    
+    // Functie Exponentiation voor het verheffen tot een macht
+    public static double Exponentiation(double a, double b)
     {
-        throw new NotImplementedException();
+        return Math.Pow(a, b);
+    }
+    
+    // Het nodige nog voorzien voor AreaTriangle
+    // Het nodige nog voorzien voor AreaRectangle
+    // Het nodige nog voorzien voor AreaSquare
+    // Het nodige nog voorzien voor AreaParallellogram
+    // Het nodige nog voorzien voor AreaRhombus
+    // Het nodige nog voorzien voor AreaTrapezium
+
+    // Functie AreaCircle voor het berekenen van de oppervlakte van een cirkel.
+    public static double AreaCircle(double r)
+    {
+        LogOutput("Math.Pow: " + r + "^2: " + Math.Pow(r, 2.0));
+        return PI*Math.Pow(r, 2.0);
+    }
+
+    // Het nodige nog voorzien voor PerimeterTriangle
+    // Het nodige nog voorzien voor PerimeterRectangle
+    // Het nodige nog voorzien voor PerimeterSquare
+    // Het nodige nog voorzien voor PerimeterParallellogram
+    // Het nodige nog voorzien voor PerimeterRhombus
+    // Het nodige nog voorzien voor PerimeterTrapezium
+    // Het nodige nog voorzien voor PerimeterCircle
+    // Het nodige nog voorzien voor VolumeCube
+    // Het nodige nog voorzien voor VolumeCylinder
+
+
+    // LogOutput, deze methode gaan we gebruiken voor output weg te schrijven naar de console.
+    public static void LogOutput(string message)
+    {
+        Console.WriteLine(message);
     }
 }
