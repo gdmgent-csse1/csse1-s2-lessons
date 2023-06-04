@@ -1,0 +1,6 @@
+Naam: Raes
+Voornaam: Kristof
+Telefoonnummer; Type: GSM; Nummer: 0496123456
+Adres; Straat: Industrieweg; Nummer: 232; Postcode: 9030; Gemeente: Mariakerke
+E-mailadres: info@kristofraes.be
+E-mailadres: kristof.raes@arteveldehs.be
